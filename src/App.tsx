@@ -1,11 +1,12 @@
 import "./App.css";
+import MuiTextField from "./components/MuiTextField.tsx";
 import MuiTypography from "./components/MuiTypography.tsx";
 
 function App() {
   return (
     <>
       <div className="App">
-        <MuiTypography></MuiTypography>
+        <MuiTextField></MuiTextField>
       </div>
     </>
   );
