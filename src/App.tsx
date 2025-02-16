@@ -1,15 +1,12 @@
 import "./App.css";
 import MuiCheckBox from "./components/MuiCheckBox.tsx";
-import MuiRadioButton from "./components/MuiRadioButton.tsx";
-import MuiSelect from "./components/MuiSelect.tsx";
-import MuiTextField from "./components/MuiTextField.tsx";
-import MuiTypography from "./components/MuiTypography.tsx";
+import MuiSwitch from "./components/MuiSwitch.tsx";
 
 function App() {
   return (
     <>
       <div className="App">
-        <MuiCheckBox></MuiCheckBox>
+        <MuiSwitch></MuiSwitch>
       </div>
     </>
   );
